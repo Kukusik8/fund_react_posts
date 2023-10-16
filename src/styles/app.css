@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.App{
+    width: 880px;
+
+}
+
+.post {
+    display: flex;
+    padding: 15px;
+    border: 3px solid teal;
+    margin-top: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noPosts {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    opacity: .4;
+    color: rgb(92, 106, 102);
+}
